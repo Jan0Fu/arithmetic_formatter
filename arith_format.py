@@ -32,7 +32,6 @@ def arithmetic_arranger(x, solve=False) :
             if item.isdigit() is False :
                 return ('Error: Numbers must only contain digits.')
 
-#Formatting Phase
         for problem in x :
 
             first_operand = problem.split(' ')[0]
@@ -66,4 +65,4 @@ def arithmetic_arranger(x, solve=False) :
 
     return print(string)
 
-arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True)
+arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], False)
